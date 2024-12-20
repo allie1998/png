@@ -1,4 +1,4 @@
-<!-- # Academic Project Page Template
+# Academic Project Page Template
 This is an academic paper project page template. adapted from https://github.com/eliahuhorwitz/Academic-project-page-template
 
 ## Website License
