@@ -130,13 +130,26 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <div class="columns is-vcentered is-centered">
+        <video poster="" id="tree" autoplay muted loop height="80%" width="80%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video2.mp4"
-        type="video/mp4">
-      </video>
+          <source src="static/videos/teaser.mp4"
+          type="video/mp4">
+        </video>
+      </div>
       <h2 class="subtitle has-text-centered">
-        ICRA 2025 Video 
+        Point and Go mode switching reallocates the cartesian
+        mode switching reference frames into a more intuitive action
+        space comprised of a new translation mode and a rotation
+        mode. We use a novel sweeping motion to point the gripper,
+        which defines the new translation axis along the robot base
+        frame’s horizontal plane. This creates an intuitive ‘point and
+        go’ translation mode that allows the user to easily perform
+        complex, human-like movements that would not be possible
+        with cartesian mode switching. The system’s rotation mode
+        combines position control with a refined end effector oriented
+        frame that provides precise and consistent robot actions in
+        various end effector poses.
       </h2>
     </div>
   </div>
@@ -166,44 +179,95 @@
 </section>
 <!-- End paper abstract -->
 
+<div class="container is-max-desktop">
+  <div class="my-block">
+      <div class="column is-centered">
+        <h2 class="title is-3">Experiments</h2>
+
+        <h2 class="content has-text-justified">
+          We verify our results with separate translation and orientation experiments to evaluate each contribution to Point and Go. Then, we conduct a 3 task user study to compare PnG to Cartesian mode switching and SCL, a state of the art learning method.
+        </h2>
+
+        <div>
+          <div class="columns is-vcentered is-centered">
+            <video poster="" id="tree" autoplay muted loop height="80%" width="80%">
+            <!-- Your video here -->
+              <source src="static/videos/experiments.mp4"
+              type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          <br><br><br>
+        </h2>
+    </div>
+  </div>
+
+<div class="container is-max-desktop">
+  <div class="my-block">
+      <div class="column is-centered">
+        <h2 class="title is-3">Point and Go in Action</h2>
+
+        <h2 class="content has-text-justified">
+          Here we can see a user completing key ADLs using Point and Go mode switching. By combining rotation and translation in wrist movements, we minimize mode switches while providing more human-like actions to control the robot with.
+        </h2>
+
+        <div>
+          <div class="columns is-vcentered is-centered">
+            <video poster="" id="tree" autoplay muted loop height="80%" width="80%">
+            <!-- Your video here -->
+              <source src="static/videos/examples.mp4"
+              type="video/mp4">
+            </video>
+          <br><br><br>
+          </div>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          <br><br><br>
+        </h2>
+    </div>
+  </div>
+
+
 
 <!-- Image carousel -->
-<!-- <section class="hero is-small">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item"> -->
-        <!-- Your image here -->
-        <!-- <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item"> -->
-        <!-- Your image here -->
-        <!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item"> -->
-        <!-- Your image here -->
-        <!-- <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item"> -->
-      <!-- Your image here -->
-      <!-- <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
+      <h2 class="title is-3">Trajectory Plots</h2>
+      <h2 class="content has-text-justified">
+        <!-- <br> -->
+        Three random trajectory plots from our user study support the intuitive nature of Point and Go mode switching. We observe that when using PnG, trajectories are smoother and more direct to targets. Cartesian mode switching's trajectories show discontinuous movement with many adjustments, suggesting a less user friendly control system.
       </h2>
-    </div>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/traj_banana.png" alt="MY ALT TEXT"/>
+        <!-- <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2> -->
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/traj_cabinet2.png" alt="MY ALT TEXT"/>
+        <!-- <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2> -->
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/traj_pour.png" alt="MY ALT TEXT"/>
+        <!-- <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2> -->
+     </div>
+     
   </div>
 </div>
 </div>
-</section> -->
+</section>
+
+
 <!-- End image carousel -->
 
 
