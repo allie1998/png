@@ -52,6 +52,20 @@ body {
 .publication-header .hero-body {
 }
 
+@media screen and (min-width: 750px) {
+  .my_teaser_video {
+    max-width: 80%;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .my_product_video {
+    max-width: 70%;
+    width: 70%;
+  }
+}
+
 .publication-title {
     font-family: 'Google Sans', sans-serif;
 }
