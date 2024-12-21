@@ -66,6 +66,12 @@ body {
     font-weight: bold;
 }
 
+div.center {
+
+  text-align: center;
+  
+}
+
 .publication-awards {
     color: #ff3860;
     width: fit-content;
