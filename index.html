@@ -75,7 +75,7 @@
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
                         <!-- <a target="_blank" -->
-                        <a href="https://drive.google.com/file/d/1GqO11tsToJ4tELklDqvVhp3miOkA15P3/view?usp=sharing" target="_blank"
+                        <a href="https://drive.google.com/file/d/1nby-nC3re3EZKJdhMQ8mdeaBUuF5hLMq/view?usp=sharing" target="_blank"
                         
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -170,7 +170,7 @@
             We assert that we can create new mode switching action spaces that reallocate movement reference frames into a more intuitive action space. We create a framework for mode switching that introduces wrist motions to the robot's action library, in addition to base-frame and end-effector aligned actions. With this framework, we create an action space representation of basis vectors to formally define different control spaces. After conducting a pilot study to find optimal action reference frames for activities of daily living, we propose Point and Go mode switching, consisting of a novel translation and rotation mode with many quality of life improvements to reduce the user's mental load.
           </p>
           <p style="text-indent: 4em">
-            We use a novel sweeping motion to point the gripper, which defines the new translation axis along the robot base frame's horizontal plane. This creates an intuitive `point and go' translation mode that allows the user to easily perform complex, human-like movements that would not be possible with Cartesian mode switching. The system's rotation mode combines position control with a refined end-effector oriented frame that provides precise and consistent robot actions in various end-effector poses. We verified its effectiveness through initial experiments that evaluated each feature of our system on its own. It was followed by a three-task user study that compared our method to Cartesian mode switching and learned State Conditioned Linear Maps. Results show that when comparing Point and Go mode switching to Cartesian-base control, we reduced completion times by 31\%, workload by 12\%, pauses by 41\%, and mode switches by 33\%, while receiving significantly favorable responses in user surveys. Additionally, we matched performance of State Conditioned Linear Maps on easy tasks, and exceeded it in more complex tasks. Point and Go mode switching can be implemented 'out of the box', without requiring sensors or data for learning, in current wheelchair-mounted robotic manipulators, and we hope can also serve as a more optimized control system for future methods to build upon.
+            We use a novel sweeping motion to point the gripper, which defines the new translation axis along the robot base frame's horizontal plane. This creates an intuitive `point and go' translation mode that allows the user to easily perform complex, human-like movements that would not be possible with Cartesian mode switching. The system's rotation mode combines position control with a refined end-effector oriented frame that provides precise and consistent robot actions in various end-effector poses. We verified its effectiveness through initial experiments that evaluated each feature of our system on its own. It was followed by a three-task user study that compared our method to Cartesian mode switching and learned State Conditioned Linear Maps. Results show that when comparing Point and Go mode switching to Cartesian-base control, we reduced completion times by 31%, workload by 12%, pauses by 41%, and mode switches by 33%, while receiving significantly favorable responses in user surveys and significantly better control smoothness. Additionally, we matched performance of State Conditioned Linear Maps on easy tasks, and exceeded it in more complex tasks. Point and Go mode switching can be implemented 'out of the box', without requiring sensors or data for learning, in current wheelchair-mounted robotic manipulators, and we hope can also serve as a more optimized control system for future methods to build upon.
           </p>
         </div>
       </div>
@@ -237,7 +237,7 @@
       <h2 class="title is-3">Trajectory Plots</h2>
       <h2 class="content has-text-justified">
         <!-- <br> -->
-        Three random trajectory plots from our user study support the intuitive nature of Point and Go mode switching. We observe that when using PnG, trajectories are smoother and more direct to targets. Cartesian mode switching's trajectories show discontinuous movement with many adjustments, suggesting a less user friendly control system.
+        Trajectory plots from our user study support the intuitive nature of Point and Go mode switching. The following sample trajectories show the start (blue) and end (red) of three trajectories for each task and control.  We observe that when using PnG, trajectories are smoother and more direct to targets. Cartesian mode switching's trajectories show discontinuous movement with many adjustments, suggesting a less user friendly control system.
       </h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
@@ -249,14 +249,14 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/traj_cabinet2.png" alt="MY ALT TEXT"/>
+        <img src="static/images/traj_pour.png" alt="MY ALT TEXT"/>
         <!-- <h2 class="subtitle has-text-centered">
           Second image description.
         </h2> -->
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/traj_pour.png" alt="MY ALT TEXT"/>
+        <img src="static/images/traj_cabinet2.png" alt="MY ALT TEXT"/>
         <!-- <h2 class="subtitle has-text-centered">
          Third image description.
        </h2> -->
@@ -270,67 +270,6 @@
 
 <!-- End image carousel -->
 
-
-
-
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container"> -->
-      <!-- Paper video. -->
-      <!-- <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End video carousel -->
-
-
-
-
- 
 
 <!-- Paper poster -->
 <!-- <section class="hero is-small is-light">
